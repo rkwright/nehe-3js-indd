@@ -35,18 +35,36 @@
  	<item id="base-css" href="css/base.css" media-type="text/css"/>
  	<item id="NeHe" href="css/NEHE.css" media-type="text/css"/>
  	<!-- scripts -->
+ 	<item id="detector" href="js/Detector.js" media-type="text/javascript"/>
+ 	<item id="threejs" href="js/three.js" media-type="text/javascript"/>
+ 	<item id="jquery" href="js/jquery-1.9.1.js" media-type="text/javascript"/>
+ 	<item id="NEHE" href="js/NEHE.js" media-type="text/javascript"/>
+  	<item id="OrbitControls" href="js/OrbitControls-Touch.js" media-type="text/javascript"/>
+ 	<item id="Scene" href="js/Scene.js" media-type="text/javascript"/>
+ 	<item id="Stats" href="js/Stats.js" media-type="text/javascript"/>
  	<!--  SVG --> 
 	<!-- fonts -->
   	<!--  Introduction XHTML --> 
+  	<item id="preface-001" href="intro/preface-001.xhtml" media-type="application/xhtml+xml"/>
   	<item id="intro-001" href="intro/intro-001.xhtml" media-type="application/xhtml+xml"/>
- 	<!--  Tutorial 02 -->
-   	<item id="tut-02-001" href="tut-02/tut-02-001.xhtml" media-type="application/xhtml+xml"/>
+  	<item id="intro-002" href="intro/intro-002.xhtml" media-type="application/xhtml+xml"/>
+ 	<!--  Lesson 01 -->
+   	<item id="lesson01-001" href="lesson01/lesson01-001.xhtml" media-type="application/xhtml+xml"/>
+   	<item id="lesson01-002" href="lesson01/lesson01-002.xhtml" media-type="application/xhtml+xml"/>
+ 	<!--  Lesson 02 -->
+   	<item id="lesson02-001" href="lesson02/lesson02-001.xhtml" media-type="application/xhtml+xml"/>
+   	<item id="lesson02-002" href="lesson02/lesson02-002.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 
  </manifest>
  <spine>
   	<itemref idref="nav" linear="yes"/>
   	<itemref idref="titlepage"/>
+  	<itemref idref="preface-001" properties="page-spread-left"/>
   	<itemref idref="intro-001" properties="page-spread-left"/>
-  	<itemref idref="tut-02-001" properties="page-spread-left"/>
+  	<itemref idref="intro-002" />
+  	<itemref idref="lesson01-001" properties="page-spread-left"/>
+  	<itemref idref="lesson01-002" />
+  	<itemref idref="lesson02-001" properties="page-spread-left"/>
+  	<itemref idref="lesson02-002" />
  </spine>
 </package>
