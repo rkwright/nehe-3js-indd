@@ -1,0 +1,56 @@
+p.ParaOverride-1 {
+	line-height:1;
+	white-space:nowrap;
+}
+span.CharOverride-1 {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:1440px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-2 {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:960px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:1200px;
+	font-style:normal;
+	font-weight:normal;
+}
+#_idContainer003 {
+	height:957px;
+	left:36px;
+	position:absolute;
+	top:32px;
+	width:696px;
+}
+#_idContainer004 {
+	height:347px;
+	left:36px;
+	position:absolute;
+	top:124px;
+	width:696px;
+}
+#_idContainer005 {
+	height:154px;
+	left:36px;
+	position:absolute;
+	top:598px;
+	width:696px;
+}
+img._idGenObjectAttribute-1 {
+	height:100%;
+	min-width:100%;
+	width:100%;
+}
+img._idGenObjectAttribute-2 {
+	left:0px;
+	position:absolute;
+	top:0px;
+}

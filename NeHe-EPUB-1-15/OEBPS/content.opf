@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 10.1" />
+		<meta name="cover" content="x204.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>NeHe-INDB-1-15</dc:title>
+		<dc:date>2015-01-06T20:21:44Z</dc:date>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2015-01-06T20:21:44Z</meta>
+		<dc:identifier id="bookid">urn:uuid:29d919dd-24f5-4384-be78-b447c9dc299b</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+	</metadata>
+	<manifest>
+		<!-- lesson resources (not from InDesign)  -->
+		<!--  images  -->
+  		<item id="readium_logo" href="images/readium_logo.png" media-type="image/png"/>
+  		<item id="epub_logo" href="images/epub_logo.jpeg" media-type="image/jpeg" />
+  		<item id="webgl_logo" href="images/webgl.jpg" media-type="image/jpeg" />
+		<item id="NeHe" href="css/NEHE.css" media-type="text/css"/>
+ 		<!-- scripts -->
+ 		<item id="detector" href="js/Detector.js" media-type="text/javascript"/>
+ 		<item id="threejs" href="js/three.js" media-type="text/javascript"/>
+ 		<item id="jquery" href="js/jquery-1.9.1.js" media-type="text/javascript"/>
+ 		<item id="NEHE" href="js/NEHE.js" media-type="text/javascript"/>
+  		<item id="OrbitControls" href="js/OrbitControls-Touch.js" media-type="text/javascript"/>
+ 		<item id="Scene" href="js/Scene.js" media-type="text/javascript"/>
+ 		<item id="Stats" href="js/Stats.js" media-type="text/javascript"/>		
+ 		<item id="gentilis-bold" href="fonts/gentilis_bold.typeface.js" media-type="text/javascript"/>		
+ 		<item id="gentilis-regular" href="fonts/gentilis_regular.typeface.js" media-type="text/javascript"/>		
+		
+		<item id="coverpage-1" href="coverpage-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="titlepage-1" href="titlepage-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="preface-1" href="preface-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="lesson15-1" href="lesson15-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="lesson15-2" href="lesson15-2.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+		<item id="lesson15-3" href="lesson15-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="lesson15-4" href="lesson15-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles_0.css" href="css/idGeneratedStyles_0.css" media-type="text/css" />
+		<item id="idGeneratedStyles_1.css" href="css/idGeneratedStyles_1.css" media-type="text/css" />
+		<item id="idGeneratedStyles_2.css" href="css/idGeneratedStyles_2.css" media-type="text/css" />
+		<item id="idGeneratedStyles_3.css" href="css/idGeneratedStyles_3.css" media-type="text/css" />
+		<item id="idGeneratedStyles_4.css" href="css/idGeneratedStyles_4.css" media-type="text/css" />
+		<item id="MinionPro-Bold.otf" href="font/MinionPro-Bold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="MinionPro-Regular.otf" href="font/MinionPro-Regular.otf" media-type="application/vnd.ms-opentype" />
+		<item id="x204.png" href="image/204.png" media-type="image/png" properties="cover-image" />
+		<item id="x235.png" href="image/235.png" media-type="image/png" />
+		<item id="x332.png" href="image/332.png" media-type="image/png" />
+		<item id="x362.png" href="image/362.png" media-type="image/png" />
+		<item id="x373.png" href="image/373.png" media-type="image/png" />
+		<item id="x417.png" href="image/417.png" media-type="image/png" />
+		<item id="x465.png" href="image/465.png" media-type="image/png" />
+		<item id="x499.png" href="image/499.png" media-type="image/png" />
+		<item id="x547.png" href="image/547.png" media-type="image/png" />
+		<item id="NeHe-2-15.png" href="image/NeHe-2-15.png" media-type="image/png" />
+	</manifest>
+	<spine>
+		<itemref idref="coverpage-1" />
+		<itemref idref="titlepage-1" />
+		<itemref idref="preface-1" />
+		<itemref idref="lesson15-1" />
+		<itemref idref="lesson15-2" />
+		<itemref idref="lesson15-3" />
+		<itemref idref="lesson15-4" />
+	</spine>
+</package>
